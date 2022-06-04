@@ -12,10 +12,11 @@ body {
     color: var(--fontColor);
     font-family: helvetica;
 }
+/*
 ul {
-    /*commenting this out forces it to inherit from body*/
-    /*font-family: helvetica;*/
-}
+    //commenting this out forces it to inherit from body
+    font-family: helvetica;
+}*/
 /*Creates the stile for the list*/
 li {
     list-style: circle;
@@ -23,9 +24,11 @@ li {
 .list {
     list-style: square;
 }
+/*
 #msg {
-    /*font-family: monospace;*/
+    font-family: monospace;
 }
+*/
 /*Sets the basic wesite theme*/
 /*
 .light-theme {
@@ -38,8 +41,22 @@ li {
     /*bg = background*/
     --bg: var(--green);
     --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
 }
 .dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
 }
