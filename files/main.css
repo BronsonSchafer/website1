@@ -1,0 +1,45 @@
+/*For dark theme*/
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    
+}
+/*main body*/
+body {
+    /*font-family: monospace;*/
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+ul {
+    /*commenting this out forces it to inherit from body*/
+    /*font-family: helvetica;*/
+}
+/*Creates the stile for the list*/
+li {
+    list-style: circle;
+}
+.list {
+    list-style: square;
+}
+#msg {
+    /*font-family: monospace;*/
+}
+/*Sets the basic wesite theme*/
+/*
+.light-theme {
+    color:#000000;
+    background: #00ffa1;
+}
+*/
+/*Updated theme for dark/white themes*/
+.light-theme {
+    /*bg = background*/
+    --bg: var(--green);
+    --fontColor: var(--black);
+}
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+}
