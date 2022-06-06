@@ -12,11 +12,6 @@ body {
     color: var(--fontColor);
     font-family: helvetica;
 }
-/*
-ul {
-    //commenting this out forces it to inherit from body
-    font-family: helvetica;
-}*/
 /*Creates the stile for the list*/
 li {
     list-style: circle;
@@ -24,18 +19,6 @@ li {
 .list {
     list-style: circle;
 }
-/*
-#msg {
-    font-family: monospace;
-}
-*/
-/*Sets the basic wesite theme*/
-/*
-.light-theme {
-    color:#000000;
-    background: #00ffa1;
-}
-*/
 /*Updated theme for dark/white themes*/
 .light-theme {
     /*bg = background*/
