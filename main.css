@@ -1,6 +1,6 @@
 /*For dark theme*/
 :root {
-    --green: #00FF00;
+    --gray: #7289DA;
     --white: #FFFFFF;
     --black: #000000;
     
@@ -22,14 +22,14 @@ li {
 /*Updated theme for dark/white themes*/
 .light-theme {
     /*bg = background*/
-    --bg: var(--green);
+    --bg: var(--gray);
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
 }
 .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--green);
+    --fontColor: var(--gray);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
