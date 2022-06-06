@@ -51,9 +51,11 @@ li {
     --btnFontColor: var(--black);
 }
 .btn {
-    position: absolute;
-    top: 20px;
-    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px var(--btnFontColor);
     height: 50px;
     width: 50px;
     border-radius: 50%;
