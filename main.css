@@ -19,6 +19,9 @@ li {
 .list {
     list-style: circle;
 }
+li.listNew {
+    color: #36393e;
+}
 /*Updated theme for dark/white themes*/
 .light-theme {
     /*bg = background*/

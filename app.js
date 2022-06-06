@@ -9,10 +9,10 @@ switcher.addEventListener('click', function(){
 
     const className = document.body.className;
     if(className == "light-theme"){
-        this.textContent = "Dark";
+        this.textContent = "Close Tracker";
     }
     else{
-        this.textContent = "Light";
+        this.textContent = "Open Tracker";
     }
 
     console.log('current class name: ' + className);
